@@ -8,7 +8,26 @@
   "background": { "service_worker": "assets/background.js", "type": "module" },
   "permissions": ["storage"],
   "content_scripts": [{
-    "matches": ["*://*.mercadolibre.*/*"],
+    "matches": [
+      "https://*.mercadolibre.com/*",
+      "https://*.mercadolibre.com.ar/*",
+      "https://*.mercadolibre.com.bo/*",
+      "https://*.mercadolibre.com.br/*",
+      "https://*.mercadolibre.cl/*",
+      "https://*.mercadolibre.com.co/*",
+      "https://*.mercadolibre.co.cr/*",
+      "https://*.mercadolibre.com.do/*",
+      "https://*.mercadolibre.com.ec/*",
+      "https://*.mercadolibre.com.gt/*",
+      "https://*.mercadolibre.hn/*",
+      "https://*.mercadolibre.com.mx/*",
+      "https://*.mercadolibre.com.ni/*",
+      "https://*.mercadolibre.pa/*",
+      "https://*.mercadolibre.pe/*",
+      "https://*.mercadolibre.com.py/*",
+      "https://*.mercadolibre.uy/*",
+      "https://*.mercadolibre.com.ve/*"
+    ],
     "js": ["assets/content.js"],
     "css": ["assets/content.css"],
     "run_at": "document_idle"
