@@ -1,0 +1,6 @@
+:root { --mp-accent: #3483fa; --mp-surface: #fff; --mp-text: #333; }
+:root[data-mp-theme='dark'] { --mp-surface: #202124; --mp-text: #f1f3f4; color-scheme: dark; }
+html[data-mp-theme='dark'] body { background-color: #17181a !important; color: var(--mp-text) !important; }
+[data-mp-hidden='true'] { display: none !important; }
+[data-mercado-plus-badge] { display: inline-flex; align-items: center; margin: 8px 0 0; padding: 3px 8px; border-radius: 999px; background: #e8f5e9; color: #187c3d; font: 600 12px/1.2 system-ui, sans-serif; }
+[data-mercado-plus-badge='full'] { background: #e8f0ff; color: #2458a6; }

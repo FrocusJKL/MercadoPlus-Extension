@@ -1,5 +1,5 @@
 {
-  "name": "package.json",
+  "name": "mercado-plus",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "sass": "^1.106.1",
     "typescript": "~6.0.3",
     "vite": "^8.3.4"
   }

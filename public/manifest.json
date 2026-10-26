@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Mercado Plus",
+  "description": "Una experiencia más limpia y productiva para Mercado Libre.",
+  "version": "0.1.0",
+  "action": { "default_title": "Mercado Plus", "default_popup": "popup.html" },
+  "options_page": "options.html",
+  "background": { "service_worker": "assets/background.js", "type": "module" },
+  "permissions": ["storage"],
+  "content_scripts": [{
+    "matches": ["*://*.mercadolibre.*/*"],
+    "js": ["assets/content.js"],
+    "css": ["assets/content.css"],
+    "run_at": "document_idle"
+  }],
+  "icons": { "16": "favicon.svg", "48": "favicon.svg", "128": "favicon.svg" }
+}
