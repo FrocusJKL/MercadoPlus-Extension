@@ -4,7 +4,6 @@
   "description": "Una experiencia más limpia y productiva para Mercado Libre.",
   "version": "0.1.0",
   "action": { "default_title": "Mercado Plus", "default_popup": "popup.html" },
-  "options_page": "options.html",
   "background": { "service_worker": "assets/background.js", "type": "module" },
   "permissions": ["storage"],
   "content_scripts": [{
