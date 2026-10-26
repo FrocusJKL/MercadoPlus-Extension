@@ -1,12 +1,32 @@
 import './styles.scss'
-import { getSettings, watchSettings } from '../storage/settings'
-import { SELECTORS } from '../shared/selectors'
-import type { Settings } from '../shared/types'
 
-let settings: Settings
+// Los content scripts de Chrome no son módulos ES. Este pequeño adaptador
+// mantiene el archivo autocontenido para que Chrome pueda ejecutarlo.
+type Theme = 'light' | 'dark' | 'system'
+type Settings = { theme: Theme; hideSponsored: boolean; highlightFull: boolean; highlightFreeShipping: boolean }
+const DEFAULT_SETTINGS: Settings = { theme: 'system', hideSponsored: true, highlightFull: true, highlightFreeShipping: true }
+const SELECTORS = {
+  productCards: ["li[data-testid*='result']", '[class*="ui-search-result"]', '[class*="poly-card"]'],
+  sponsoredMarkers: ['patrocinado', 'publicación patrocinada', 'sponsored'],
+  fullMarkers: ['full', 'envío full'],
+  freeShippingMarkers: ['envío gratis', 'envio gratis'],
+  featureBadge: 'data-mercado-plus-badge',
+} as const
+let settings: Settings = { ...DEFAULT_SETTINGS }
 let observer: MutationObserver | undefined
 const cardSelector = SELECTORS.productCards.join(',')
 const contains = (text: string, markers: readonly string[]) => markers.some(marker => text.toLocaleLowerCase().includes(marker))
+
+async function getSettings(): Promise<Settings> {
+  const result = await chrome.storage.local.get('settings')
+  return { ...DEFAULT_SETTINGS, ...(result.settings as Partial<Settings> | undefined) }
+}
+
+function watchSettings(callback: (next: Settings) => void): void {
+  chrome.storage.onChanged.addListener((changes, area) => {
+    if (area === 'local' && changes.settings?.newValue) callback({ ...DEFAULT_SETTINGS, ...changes.settings.newValue as Partial<Settings> })
+  })
+}
 
 function applyTheme(): void {
   const dark = settings.theme === 'dark' || (settings.theme === 'system' && matchMedia('(prefers-color-scheme: dark)').matches)
