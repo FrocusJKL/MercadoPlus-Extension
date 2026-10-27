@@ -236,6 +236,25 @@ html[data-mp-theme='dark'] .andes-form-control--textfield .andes-form-control__c
   box-shadow: 0 0 0 1px var(--mp-border) !important;
 }
 
+html[data-mp-theme='dark'] .andes-form-control--search-box,
+html[data-mp-theme='dark'] .andes-form-control--search-box--size-small,
+html[data-mp-theme='dark'] .andes-form-control--search-box--always-visible {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .andes-form-control--search-box .andes-form-control__control,
+html[data-mp-theme='dark'] .andes-form-control--search-box input {
+  background-color: var(--mp-input) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .andes-form-control--search-box input::placeholder {
+  color: var(--mp-placeholder) !important;
+}
+
 html[data-mp-theme='dark'] .top-row,
 html[data-mp-theme='dark'] .bottom-row {
   background-color: var(--mp-surface-elevated) !important;
@@ -246,6 +265,18 @@ html[data-mp-theme='dark'] .bottom-row {
 html[data-mp-theme='dark'] .list-item-grouper__header {
   border-bottom-color: var(--mp-border) !important;
   color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .list-item-grouper {
+  background-color: var(--mp-surface) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .list-item-container {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
 }
 
 html[data-mp-theme='dark'] .app-wrapper .myml-nav .myml-nav__wrapper {
@@ -414,6 +445,27 @@ html[data-mp-theme='dark'] #nav-footer-access-switch:focus-visible {
 html[data-mp-theme='dark'] ::selection {
   background: #5a5a5a !important;
   color: #ffffff !important;
+}
+
+/* Iconos SVG con colores embebidos en atributos fill */
+html[data-mp-theme='dark'] svg path[fill='white'],
+html[data-mp-theme='dark'] svg path[fill='#fff'],
+html[data-mp-theme='dark'] svg path[fill='#FFF'],
+html[data-mp-theme='dark'] svg path[fill='#ffffff'],
+html[data-mp-theme='dark'] svg path[fill='#FFFFFF'],
+html[data-mp-theme='dark'] svg path[fill='#000'],
+html[data-mp-theme='dark'] svg path[fill='#000000'] {
+  fill: var(--mp-text-muted) !important;
+}
+
+html[data-mp-theme='dark'] svg {
+  color: var(--mp-text-muted);
+}
+
+html[data-mp-theme='dark'] svg path[style*='color: white'],
+html[data-mp-theme='dark'] svg path[style*='color: rgb(255, 255, 255)'] {
+  fill: var(--mp-text) !important;
+  color: var(--mp-text) !important;
 }
 
 html[data-mp-theme='dark'] .nav-footer-seo__wrapper,
