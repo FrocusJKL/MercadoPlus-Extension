@@ -369,6 +369,29 @@ html[data-mp-theme='dark'] .andes-form-control--search-box input::placeholder {
   color: var(--mp-placeholder) !important;
 }
 
+html[data-mp-theme='dark'] .andes-ui-textfield__control-container,
+html[data-mp-theme='dark'] .andes-ui-textfield__control {
+  background-color: var(--mp-input) !important;
+  border-color: var(--mp-border) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] input.andes-ui-textfield__field {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+  border-color: transparent !important;
+  caret-color: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] input.andes-ui-textfield__field::placeholder {
+  color: var(--mp-placeholder) !important;
+}
+
+html[data-mp-theme='dark'] .andes-ui-textfield__control:focus-within {
+  box-shadow: 0 0 0 2px rgb(138 180 248 / 35%) !important;
+  border-color: var(--mp-link) !important;
+}
+
 html[data-mp-theme='dark'] .top-row,
 html[data-mp-theme='dark'] .bottom-row {
   background-color: var(--mp-surface-elevated) !important;
