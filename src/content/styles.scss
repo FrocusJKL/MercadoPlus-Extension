@@ -337,6 +337,19 @@ html[data-mp-theme='dark'] .main-wrapper {
   background-color: var(--mp-bg) !important;
 }
 
+html[data-mp-theme='dark'] .wrapper,
+html[data-mp-theme='dark'] .section-header {
+  background-color: var(--mp-surface) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .site-shopping-info {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
 html[data-mp-theme='dark'] .coupons-list {
   background: var(--mp-surface) !important;
   color: var(--mp-text) !important;
