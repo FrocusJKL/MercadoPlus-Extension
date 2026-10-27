@@ -177,6 +177,75 @@ html[data-mp-theme='dark'] .clock-icon path {
   fill: var(--mp-text-muted) !important;
 }
 
+/* Flujo de publicación de servicios (SYI) */
+html[data-mp-theme='dark'] .syi-detail-container,
+html[data-mp-theme='dark'] .syi-layout,
+html[data-mp-theme='dark'] .syi-layout--lite--main-brick,
+html[data-mp-theme='dark'] .syi-wizard,
+html[data-mp-theme='dark'] .syi-wizard__body,
+html[data-mp-theme='dark'] .syi-wizard__content,
+html[data-mp-theme='dark'] .syi-header-page__container,
+html[data-mp-theme='dark'] .page-header__navigation,
+html[data-mp-theme='dark'] .page-header__navigation--left {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .header-panel-message__text {
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] form#category_task,
+html[data-mp-theme='dark'] #category_task {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .syi-card-ui,
+html[data-mp-theme='dark'] .syi-card-ui-header__container,
+html[data-mp-theme='dark'] .syi-card-ui-body,
+html[data-mp-theme='dark'] .searchable-option-values-container,
+html[data-mp-theme='dark'] .searchable-option-values-container__list,
+html[data-mp-theme='dark'] .sc-sov-carrousel,
+html[data-mp-theme='dark'] .sc-sov-carrousel-element {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 24%) !important;
+}
+
+html[data-mp-theme='dark'] .syi-card-ui-header-title__pretitle,
+html[data-mp-theme='dark'] .syi-card-ui-header-title__title,
+html[data-mp-theme='dark'] .searchable-option-values-container__title,
+html[data-mp-theme='dark'] .andes-list__item-primary,
+html[data-mp-theme='dark'] .andes-list__item-text {
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .andes-list,
+html[data-mp-theme='dark'] .andes-list__item,
+html[data-mp-theme='dark'] .andes-list__item-action,
+html[data-mp-theme='dark'] .andes-list__item-first-column,
+html[data-mp-theme='dark'] .andes-list__item-second-column {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .andes-list__item:hover,
+html[data-mp-theme='dark'] .andes-list__item-action:hover {
+  background-color: var(--mp-surface-hover) !important;
+}
+
+html[data-mp-theme='dark'] .sc-ui-chevron__line1,
+html[data-mp-theme='dark'] .sc-ui-chevron__line2 {
+  stroke: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] .andes-breadcrumb {
+  color: var(--mp-text-muted) !important;
+}
+
 html[data-mp-theme='dark'] .ui-ms-profile__container--default,
 html[data-mp-theme='dark'] .ui-ms-profile__navigation-container,
 html[data-mp-theme='dark'] .ui-ms-profile__corridors-navigation-container,
@@ -329,6 +398,10 @@ html[data-mp-theme='dark'] a.andes-ui-list__item-actionable {
   color: inherit !important;
   border-color: transparent !important;
   box-shadow: none !important;
+}
+
+html[data-mp-theme='dark'] button.andes-ui-list__item-actionable:has(.admin-hub-ui-list-protections-title) {
+  display: none !important;
 }
 
 html[data-mp-theme='dark'] .andes-tag__label {
@@ -511,6 +584,13 @@ html[data-mp-theme='dark'] #category-tab-all .category-tab {
 
 html[data-mp-theme='dark'] .andes-tabs__border {
   background-color: var(--mp-border) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .category-tabs__content,
+html[data-mp-theme='dark'] [id^='category-tabs-tab-content-'] {
+  background-color: var(--mp-surface) !important;
+  color: var(--mp-text) !important;
   border-color: var(--mp-border) !important;
 }
 
