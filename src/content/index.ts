@@ -6,7 +6,7 @@ type Theme = 'light' | 'dark' | 'system'
 type Settings = { theme: Theme; hideSponsored: boolean; highlightFull: boolean; highlightFreeShipping: boolean }
 const DEFAULT_SETTINGS: Settings = { theme: 'system', hideSponsored: true, highlightFull: true, highlightFreeShipping: true }
 const SELECTORS = {
-  productCards: ["li[data-testid*='result']", '[class*="ui-search-result"]', '[class*="poly-card"]'],
+  productCards: ["li[data-testid*='result']", '[class*="ui-search-result"]', '[class*="poly-card"]', '.andes-card'],
   sponsoredMarkers: ['patrocinado', 'publicación patrocinada', 'sponsored'],
   fullMarkers: ['full', 'envío full'],
   freeShippingMarkers: ['envío gratis', 'envio gratis'],

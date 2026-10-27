@@ -1,6 +1,159 @@
-:root { --mp-accent: #3483fa; --mp-surface: #fff; --mp-text: #333; }
-:root[data-mp-theme='dark'] { --mp-surface: #202124; --mp-text: #f1f3f4; color-scheme: dark; }
-html[data-mp-theme='dark'] body { background-color: #17181a !important; color: var(--mp-text) !important; }
+:root {
+  --mp-bg: #1e1e1e;
+  --mp-surface: #262626;
+  --mp-surface-elevated: #2d2d2d;
+  --mp-surface-hover: #353535;
+  --mp-border: #454545;
+  --mp-text: #e0e0e0;
+  --mp-text-muted: #a6a6a6;
+  --mp-text-subtle: #858585;
+  --mp-link: #9bbcff;
+  --mp-price: #f2f2f2;
+  --mp-input: #303030;
+  --mp-placeholder: #aaaaaa;
+  --mp-accent: #8ab4f8;
+}
+
+html[data-mp-theme='dark'] {
+  color-scheme: dark;
+  background: var(--mp-bg) !important;
+}
+
+html[data-mp-theme='dark'] body,
+html[data-mp-theme='dark'] #root-app,
+html[data-mp-theme='dark'] main,
+html[data-mp-theme='dark'] [data-site='ML'] {
+  background: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .nav-header,
+html[data-mp-theme='dark'] header,
+html[data-mp-theme='dark'] .nav-left-area,
+html[data-mp-theme='dark'] .nav-menu-cp-logged,
+html[data-mp-theme='dark'] .nav-categs-overlay {
+  background: var(--mp-surface) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .nav-search-input,
+html[data-mp-theme='dark'] input,
+html[data-mp-theme='dark'] textarea,
+html[data-mp-theme='dark'] select {
+  background: var(--mp-input) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] input::placeholder,
+html[data-mp-theme='dark'] textarea::placeholder {
+  color: var(--mp-placeholder) !important;
+}
+
+html[data-mp-theme='dark'] .nav-search-btn,
+html[data-mp-theme='dark'] button,
+html[data-mp-theme='dark'] .andes-button--mute,
+html[data-mp-theme='dark'] .andes-button--loud,
+html[data-mp-theme='dark'] .action-button {
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .ui-search-result,
+html[data-mp-theme='dark'] .ui-search-result__wrapper,
+html[data-mp-theme='dark'] .poly-card,
+html[data-mp-theme='dark'] .poly-card--xlarge,
+html[data-mp-theme='dark'] [class*='poly-card'],
+html[data-mp-theme='dark'] .andes-card,
+html[data-mp-theme='dark'] .andes-card--primary,
+html[data-mp-theme='dark'] .ui-recommendations-carousel-snapped__header-titles,
+html[data-mp-theme='dark'] .loyalty-widget-v2__benefit,
+html[data-mp-theme='dark'] .partners-subscriptions__slide,
+html[data-mp-theme='dark'] .banner-row,
+html[data-mp-theme='dark'] .gradient-banner {
+  background: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 28%) !important;
+}
+
+html[data-mp-theme='dark'] p,
+html[data-mp-theme='dark'] span,
+html[data-mp-theme='dark'] h1,
+html[data-mp-theme='dark'] h2,
+html[data-mp-theme='dark'] h3,
+html[data-mp-theme='dark'] h4,
+html[data-mp-theme='dark'] label,
+html[data-mp-theme='dark'] .poly-component__title,
+html[data-mp-theme='dark'] .primary-title,
+html[data-mp-theme='dark'] .secondary-title,
+html[data-mp-theme='dark'] .section-header__title {
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] a,
+html[data-mp-theme='dark'] .nav-menu-link-cp,
+html[data-mp-theme='dark'] .nav-menu-item-link,
+html[data-mp-theme='dark'] .nav-footer-navigation__link {
+  color: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] .andes-money-amount,
+html[data-mp-theme='dark'] .andes-money-amount__fraction,
+html[data-mp-theme='dark'] .andes-money-amount__cents,
+html[data-mp-theme='dark'] .price-tag-fraction,
+html[data-mp-theme='dark'] .poly-price__amount,
+html[data-mp-theme='dark'] [class*='price-tag'] {
+  color: var(--mp-price) !important;
+  font-weight: 700 !important;
+}
+
+html[data-mp-theme='dark'] .poly-component__shipping,
+html[data-mp-theme='dark'] .nav-footer-primaryinfo,
+html[data-mp-theme='dark'] .nav-footer-secondaryinfo,
+html[data-mp-theme='dark'] .cookie-consent-banner-opt-out__message {
+  color: var(--mp-text-muted) !important;
+}
+
+/* Superficies de la página principal y recomendaciones */
+html[data-mp-theme='dark'] .partners-subscriptions .row-container--white,
+html[data-mp-theme='dark'] .ui-recommendations-carousel-snapped.new-carousel,
+html[data-mp-theme='dark'] .discovery .advertising-square {
+  background-color: var(--mp-surface-elevated) !important;
+  border-color: var(--mp-border) !important;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 28%) !important;
+}
+
+html[data-mp-theme='dark'] .main-wrapper .main-container--flat {
+  background-color: var(--mp-bg) !important;
+}
+
+html[data-mp-theme='dark'] .nav-footer-seo__wrapper,
+html[data-mp-theme='dark'] .nav-footer-navigation__menu,
+html[data-mp-theme='dark'] .nav-footer-access-content,
+html[data-mp-theme='dark'] .nav-footer-info-wrapper,
+html[data-mp-theme='dark'] .cookie-consent-banner-opt-out__container,
+html[data-mp-theme='dark'] .andes-modal__card,
+html[data-mp-theme='dark'] .andes-modal__header,
+html[data-mp-theme='dark'] .andes-modal__content,
+html[data-mp-theme='dark'] .cookie-consent-snackbar {
+  background: var(--mp-surface) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
 [data-mp-hidden='true'] { display: none !important; }
-[data-mercado-plus-badge] { display: inline-flex; align-items: center; margin: 8px 0 0; padding: 3px 8px; border-radius: 999px; background: #e8f5e9; color: #187c3d; font: 600 12px/1.2 system-ui, sans-serif; }
-[data-mercado-plus-badge='full'] { background: #e8f0ff; color: #2458a6; }
+
+[data-mercado-plus-badge] {
+  display: inline-flex;
+  align-items: center;
+  margin: 8px 0 0;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #354b3b;
+  color: #a9e6b8;
+  font: 600 12px/1.2 system-ui, sans-serif;
+}
+
+[data-mercado-plus-badge='full'] { background: #354968; color: #b8d1ff; }
