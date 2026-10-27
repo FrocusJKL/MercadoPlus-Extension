@@ -3,7 +3,15 @@
   "name": "Mercado Plus",
   "description": "Una experiencia más limpia y productiva para Mercado Libre.",
   "version": "1.0.0",
-  "action": { "default_title": "Mercado Plus", "default_popup": "popup.html" },
+  "action": {
+    "default_title": "Mercado Plus",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/logo_icon.png",
+      "48": "icons/logo_icon.png",
+      "128": "icons/logo_icon.png"
+    }
+  },
   "background": { "service_worker": "assets/background.js", "type": "module" },
   "permissions": ["storage"],
   "content_scripts": [{
@@ -32,5 +40,9 @@
     "all_frames": true,
     "run_at": "document_idle"
   }],
-  "icons": { "16": "favicon.svg", "48": "favicon.svg", "128": "favicon.svg" }
+  "icons": {
+    "16": "icons/logo_icon.png",
+    "48": "icons/logo_icon.png",
+    "128": "icons/logo_icon.png"
+  }
 }

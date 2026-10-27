@@ -2,6 +2,7 @@
 * { box-sizing: border-box; } body { margin: 0; min-width: 340px; }
 .shell { padding: 20px; background: #fff; } .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
 .brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: #3483fa; color: #fff; font-weight: 800; }
+.brand-logo { display: block; width: 34px; height: 34px; border-radius: 10px; object-fit: cover; }
 h1 { margin: 0; font-size: 20px; color: #222; } h2 { font-size: 16px; margin: 24px 0 10px; } .subtitle { margin: 2px 0 0; color: #777; font-size: 12px; }
 .setting { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid #eee; } .setting label { font-weight: 600; } .hint { display: block; color: #888; font-size: 12px; font-weight: 400; }
 select { min-width: 112px; }
