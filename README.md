@@ -1,6 +1,6 @@
 # Mercado Plus
 
-Extensión de Chrome que agrega mejoras visuales opcionales a Mercado Libre.
+Extensión de Chrome que agrega un tema oscuro configurable a Mercado Libre.
 
 ## Desarrollo
 

@@ -6,12 +6,10 @@
   --mp-border: #454545;
   --mp-text: #e0e0e0;
   --mp-text-muted: #a6a6a6;
-  --mp-text-subtle: #858585;
   --mp-link: #9bbcff;
   --mp-price: #f2f2f2;
   --mp-input: #303030;
   --mp-placeholder: #aaaaaa;
-  --mp-accent: #8ab4f8;
 }
 
 html[data-mp-theme='dark'] {
@@ -785,18 +783,3 @@ html[data-mp-theme='dark'] dialog.andes-modal--iframe {
   border-radius: 8px !important;
   box-shadow: 0 3px 10px rgb(0 0 0 / 34%) !important;
 }
-
-[data-mp-hidden='true'] { display: none !important; }
-
-[data-mercado-plus-badge] {
-  display: inline-flex;
-  align-items: center;
-  margin: 8px 0 0;
-  padding: 3px 8px;
-  border-radius: 999px;
-  background: #354b3b;
-  color: #a9e6b8;
-  font: 600 12px/1.2 system-ui, sans-serif;
-}
-
-[data-mercado-plus-badge='full'] { background: #354968; color: #b8d1ff; }

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Mercado Plus",
   "description": "Una experiencia más limpia y productiva para Mercado Libre.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "action": { "default_title": "Mercado Plus", "default_popup": "popup.html" },
   "background": { "service_worker": "assets/background.js", "type": "module" },
   "permissions": ["storage"],

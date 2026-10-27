@@ -3,17 +3,15 @@
 ## Propósito
 Extensión Chrome MV3 que mejora la experiencia visual de Mercado Libre sin modificar sus servicios, automatizar compras ni enviar datos fuera del navegador.
 
-## MVP implementado
+## Versión 1.0 implementada
 - Tema claro, oscuro y automático.
-- Ocultar publicaciones patrocinadas.
-- Resaltar etiquetas FULL y envío gratis.
-- Popup para cambios rápidos y página de opciones completa.
+- Popup como único panel de configuración.
 - Configuración persistida exclusivamente con `chrome.storage.local`.
 
 ## Arquitectura
-`src/content` adapta la interfaz de Mercado Libre; `src/popup` contiene controles rápidos; `src/options` contiene preferencias; `src/storage` encapsula persistencia; `src/shared` contiene tipos, selectores y estilos compartidos; `src/background` inicializa valores por defecto.
+`src/content` adapta la interfaz de Mercado Libre; `src/popup` contiene la configuración; `src/storage` encapsula persistencia; `src/shared` contiene tipos y estilos compartidos; `src/background` inicializa valores por defecto.
 
-Los selectores del sitio están centralizados en `src/shared/selectors.ts`. El content script usa `MutationObserver` para páginas dinámicas y cada función se controla con su propia preferencia.
+El tema se aplica mediante CSS, por lo que también cubre contenido añadido dinámicamente. El content script escucha cambios de configuración y cambios del tema del sistema sin recorrer continuamente el DOM.
 
 ## Seguridad y límites
 No se usan servidores externos, LocalStorage, `eval`, credenciales ni automatización. Los selectores son heurísticos porque el DOM de Mercado Libre puede cambiar.
