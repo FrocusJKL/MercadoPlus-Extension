@@ -7,9 +7,9 @@
     "default_title": "Mercado Plus",
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icons/logo_icon.png",
-      "48": "icons/logo_icon.png",
-      "128": "icons/logo_icon.png"
+      "16": "icons/logo_16.png",
+      "48": "icons/logo_48.png",
+      "128": "icons/logo_128.png"
     }
   },
   "background": { "service_worker": "assets/background.js", "type": "module" },
@@ -41,8 +41,8 @@
     "run_at": "document_idle"
   }],
   "icons": {
-    "16": "icons/logo_icon.png",
-    "48": "icons/logo_icon.png",
-    "128": "icons/logo_icon.png"
+    "16": "icons/logo_16.png",
+    "48": "icons/logo_48.png",
+    "128": "icons/logo_128.png"
   }
 }
