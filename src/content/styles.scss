@@ -935,6 +935,23 @@ html[data-mp-theme='dark'] .cookie-consent-snackbar {
   border-color: var(--mp-border) !important;
 }
 
+/* Modal genérico del PDP (ej. medios de pago) */
+html[data-mp-theme='dark'] .ui-vpp-generic-modal {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] [class*='ui-vpp-generic-modal__'] {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .ui-vpp-generic-modal--payments {
+  box-shadow: 0 12px 32px rgb(0 0 0 / 48%) !important;
+}
+
 html[data-mp-theme='dark'] .andes-ui-card,
 html[data-mp-theme='dark'] .andes-card--primary,
 html[data-mp-theme='dark'] dialog.andes-modal--iframe {
