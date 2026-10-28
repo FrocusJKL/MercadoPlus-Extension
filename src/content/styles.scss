@@ -119,6 +119,8 @@ html[data-mp-theme='dark'] .nav-category-content-options-desktop,
 html[data-mp-theme='dark'] .nav-categs,
 html[data-mp-theme='dark'] .nav-categs-detail__header,
 html[data-mp-theme='dark'] .nav-categs-detail__categ-list,
+html[data-mp-theme='dark'] .sb-suggestions,
+html[data-mp-theme='dark'] .sb-suggestions__wrapper,
 html[data-mp-theme='dark'] .sb-suggestions__list,
 html[data-mp-theme='dark'] .sb-suggestions__list--additional,
 html[data-mp-theme='dark'] .andes-carousel-snapped,
@@ -145,6 +147,16 @@ html[data-mp-theme='dark'] .ui-search-top-keywords__item:hover,
 html[data-mp-theme='dark'] .sb-suggestions__item:hover {
   color: #ffffff !important;
   background-color: var(--mp-surface-hover) !important;
+}
+
+html[data-mp-theme='dark'] .sb-suggestions {
+  box-shadow: 0 8px 24px rgb(0 0 0 / 45%) !important;
+}
+
+html[data-mp-theme='dark'] .sb-suggestions__item--active,
+html[data-mp-theme='dark'] .sb-suggestions__item--highlighted {
+  background-color: var(--mp-surface-hover) !important;
+  color: #ffffff !important;
 }
 
 html[data-mp-theme='dark'] .ui-recommendations-carousel-snapped.ui-pdp-carousel-snapped-up.recos-override__card-vertical {
