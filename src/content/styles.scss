@@ -719,6 +719,139 @@ html[data-mp-theme='dark'] .my-transactions-module__list .transaction-card__cont
   border-color: var(--mp-border) !important;
 }
 
+/* Estado de la compra (my_purchases/status) */
+html[data-mp-theme='dark'] .layout-container,
+html[data-mp-theme='dark'] .main-container--deep,
+html[data-mp-theme='dark'] .detail-container,
+html[data-mp-theme='dark'] .advertising-container {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .breadcrumb .andes-breadcrumb__link,
+html[data-mp-theme='dark'] .breadcrumb .andes-breadcrumb__label,
+html[data-mp-theme='dark'] .breadcrumb .andes-breadcrumb__chevron {
+  color: var(--mp-text-muted) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-context-with-ellipsis {
+  background-color: var(--mp-surface) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-context-with-ellipsis:hover {
+  background-color: var(--mp-surface-hover) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-context-with-ellipsis__subtitle,
+html[data-mp-theme='dark'] .bf-ui-rich-text--gray,
+html[data-mp-theme='dark'] .bf-ui-rich-text--neutral {
+  color: var(--mp-text-muted) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-card,
+html[data-mp-theme='dark'] .bf-ui-card--no-padding,
+html[data-mp-theme='dark'] .bf-ui-card--flat,
+html[data-mp-theme='dark'] .bf-ui-card--bordered,
+html[data-mp-theme='dark'] .feedback-container,
+html[data-mp-theme='dark'] .feedback-container-intro {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .content-ranking,
+html[data-mp-theme='dark'] .ranking,
+html[data-mp-theme='dark'] .ranking-title p {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ranking-stars-icon svg,
+html[data-mp-theme='dark'] .andes-thumbnail svg {
+  color: var(--mp-text-muted) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-list-container,
+html[data-mp-theme='dark'] .bf-ui-list-container__title,
+html[data-mp-theme='dark'] .bf-ui-list-row,
+html[data-mp-theme='dark'] .bf-ui-list-row-ui__title,
+html[data-mp-theme='dark'] .bf-ui-row-with-ellipsis__title,
+html[data-mp-theme='dark'] .bf-ui-ticket,
+html[data-mp-theme='dark'] .bf-ui-ticket__title,
+html[data-mp-theme='dark'] .bf-ui-ticket-row__left-column,
+html[data-mp-theme='dark'] .bf-ui-ticket-row__right-column,
+html[data-mp-theme='dark'] .bf-ui-card-title,
+html[data-mp-theme='dark'] .bf-ui-list-with-title__title,
+html[data-mp-theme='dark'] .bf-ui-detail-row__title,
+html[data-mp-theme='dark'] .bf-ui-detail-row__text,
+html[data-mp-theme='dark'] .invoices-overview-card,
+html[data-mp-theme='dark'] .bf-ui-itm-invoices-overview-card,
+html[data-mp-theme='dark'] .invoice-item {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-list-row:hover {
+  background-color: var(--mp-surface-hover) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-list-row-ui__description,
+html[data-mp-theme='dark'] .bf-ui-row-with-ellipsis__secondary-title,
+html[data-mp-theme='dark'] .bf-ui-ticket__subtitle,
+html[data-mp-theme='dark'] .bf-ui-ticket-row__right-column--secondary-text,
+html[data-mp-theme='dark'] .bf-ui-detail-row__secondary-title,
+html[data-mp-theme='dark'] .bf-ui-detail-row__description,
+html[data-mp-theme='dark'] .invoice-item-details__info {
+  color: var(--mp-text-muted) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-expandable__button,
+html[data-mp-theme='dark'] .bf-ui-expandable__content {
+  background-color: transparent !important;
+  color: var(--mp-text-muted) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-separator {
+  background-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-rich-price,
+html[data-mp-theme='dark'] .bf-ui-price-small,
+html[data-mp-theme='dark'] .bf-ui-price-small-cents {
+  color: var(--mp-price) !important;
+}
+
+html[data-mp-theme='dark'] .bf-ui-rich-text--success,
+html[data-mp-theme='dark'] .bf-ui-rich-price--success {
+  color: #7bd88f !important;
+}
+
+html[data-mp-theme='dark'] .invoice-item-actions__download-trigger,
+html[data-mp-theme='dark'] .invoice-item-actions__link {
+  color: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] .invoice-item-actions svg path {
+  fill: var(--mp-link) !important;
+  color: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] img.bf-ui-logo--buflo_payment_method_credit-card-mp {
+  filter: invert(1) brightness(0.95) !important;
+}
+
+html[data-mp-theme='dark'] .buyer-assistant__floating-button {
+  background-color: var(--mp-surface-elevated) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .buyer-assistant__floating-button__label {
+  color: var(--mp-text) !important;
+}
+
 html[data-mp-theme='dark'] .nav-footer {
   background-color: var(--mp-surface) !important;
   color: var(--mp-text-muted) !important;
@@ -795,4 +928,437 @@ html[data-mp-theme='dark'] .andes-card--primary,
 html[data-mp-theme='dark'] dialog.andes-modal--iframe {
   border-radius: 8px !important;
   box-shadow: 0 3px 10px rgb(0 0 0 / 34%) !important;
+}
+
+/* ============ PDP / VPP: página de producto ============ */
+
+/* Contenedores generales */
+html[data-mp-theme='dark'] .ui-pdp-container,
+html[data-mp-theme='dark'] .ui-pdp-container__row,
+html[data-mp-theme='dark'] .ui-pdp-container__col,
+html[data-mp-theme='dark'] .ui-vpp-container,
+html[data-mp-theme='dark'] .ui-vpp-container-top--gray,
+html[data-mp-theme='dark'] .ui-pdp-group-header-breadcrumb,
+html[data-mp-theme='dark'] .ui-pdp--relative {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+/* Galería de imágenes */
+html[data-mp-theme='dark'] .ui-pdp-gallery,
+html[data-mp-theme='dark'] .ui-pdp-gallery__wrapper,
+html[data-mp-theme='dark'] .ui-pdp-gallery__column,
+html[data-mp-theme='dark'] .ui-pdp-gallery-grid__column,
+html[data-mp-theme='dark'] .ui-pdp-media-carousel,
+html[data-mp-theme='dark'] .ui-pdp-media-carousel__figure,
+html[data-mp-theme='dark'] .ui-pdp-vertical-gallery,
+html[data-mp-theme='dark'] .ui-pdp-vertical-gallery__column,
+html[data-mp-theme='dark'] .ui-pdp-vertical-gallery-container,
+html[data-mp-theme='dark'] .ui-pdp-gallery-variant__thumb,
+html[data-mp-theme='dark'] .ui-pdp-gallery-variant__thumb-item {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-media-carousel__navigation,
+html[data-mp-theme='dark'] .ui-pdp-media-carousel__navigation-action,
+html[data-mp-theme='dark'] .andes-carousel-snapped__control,
+html[data-mp-theme='dark'] .andes-carousel-snapped__arrows-wrapper {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-media-carousel__navigation-action svg,
+html[data-mp-theme='dark'] .andes-carousel-snapped__control svg {
+  color: var(--mp-text) !important;
+  fill: var(--mp-text) !important;
+  stroke: var(--mp-text) !important;
+}
+
+/* Encabezado y título */
+html[data-mp-theme='dark'] .ui-pdp-header,
+html[data-mp-theme='dark'] .ui-pdp-header__content,
+html[data-mp-theme='dark'] .ui-pdp-header__title-container,
+html[data-mp-theme='dark'] .ui-pdp-header__title,
+html[data-mp-theme='dark'] .ui-pdp-header__brand,
+html[data-mp-theme='dark'] .ui-pdp__header-top-brand,
+html[data-mp-theme='dark'] .ui-pdp-title,
+html[data-mp-theme='dark'] .ui-pdp-media__title {
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-header__subtitle {
+  color: var(--mp-text-muted) !important;
+}
+
+/* Píldoras de promoción (las verdes se conservan) */
+html[data-mp-theme='dark'] .ui-pdp-promotions-pill--light-blue,
+html[data-mp-theme='dark'] .ui-pdp-promotions-pill--blue,
+html[data-mp-theme='dark'] .ui-pdp-promotions-pill--pink,
+html[data-mp-theme='dark'] .ui-pdp-promotions-pill--gray,
+html[data-mp-theme='dark'] .ui-pdp-promotions-pill--white {
+  background-color: var(--mp-surface-elevated) !important;
+  background-image: none !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+/* Utilidades de color del PDP */
+html[data-mp-theme='dark'] .ui-pdp-color--WHITE,
+html[data-mp-theme='dark'] .ui-pdp-color--BLACK {
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-color--GRAY {
+  color: var(--mp-text-muted) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-color--BLUE {
+  color: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-color--RED {
+  color: #f28b82 !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-color--GREEN {
+  color: #7bd88f !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-background-color--WHITE {
+  background-color: var(--mp-surface) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-background-color--GRAY {
+  background-color: var(--mp-surface-elevated) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-background-color--BLACK {
+  background-color: var(--mp-bg) !important;
+}
+
+/* Texto verde inline (estilos embebidos) */
+html[data-mp-theme='dark'] span[style*='color: rgb(0, 166, 80)'],
+html[data-mp-theme='dark'] span[style*='color:rgb(0, 166, 80)'],
+html[data-mp-theme='dark'] span[style*='color: rgb(0,166,80)'],
+html[data-mp-theme='dark'] span[style*='color: rgb(0, 126, 51)'] {
+  color: #7bd88f !important;
+}
+
+/* Píldoras/badges con fondo verde: se conservan verdes */
+html[data-mp-theme='dark'] span[style*='background-color: rgb(0, 166, 80)'],
+html[data-mp-theme='dark'] span[style*='background-color:rgb(0, 166, 80)'],
+html[data-mp-theme='dark'] span[style*='background-color: rgb(0,166,80)'],
+html[data-mp-theme='dark'] .ui-pdp-background-color--GREEN {
+  background-color: rgb(0 166 80) !important;
+  color: #ffffff !important;
+}
+
+/* Bloque de precios */
+html[data-mp-theme='dark'] .ui-pdp-price__part,
+html[data-mp-theme='dark'] .ui-pdp-price__second-line {
+  color: var(--mp-price) !important;
+}
+
+html[data-mp-theme='dark'] .andes-money-amount--previous,
+html[data-mp-theme='dark'] .andes-money-amount--previous .andes-money-amount__fraction,
+html[data-mp-theme='dark'] .andes-money-amount--previous .andes-money-amount__cents {
+  color: var(--mp-text-muted) !important;
+  font-weight: 400 !important;
+}
+
+/* Variaciones y dropdowns */
+html[data-mp-theme='dark'] .ui-pdp-outside_variations,
+html[data-mp-theme='dark'] .ui-pdp-variations,
+html[data-mp-theme='dark'] .ui-pdp-variation,
+html[data-mp-theme='dark'] .ui-pdp-variation__thumbnail {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-variation__thumbnail {
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-variation__thumbnail--selected {
+  border-color: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-variation__picker {
+  background-color: var(--mp-input) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .andes-dropdown,
+html[data-mp-theme='dark'] .andes-dropdown__trigger,
+html[data-mp-theme='dark'] .andes-dropdown__selection,
+html[data-mp-theme='dark'] .andes-dropdown__list,
+html[data-mp-theme='dark'] .andes-dropdown__option,
+html[data-mp-theme='dark'] .andes-dropdown__popover {
+  background-color: var(--mp-input) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .andes-dropdown__option:hover,
+html[data-mp-theme='dark'] .andes-dropdown__option--selected {
+  background-color: var(--mp-surface-hover) !important;
+}
+
+html[data-mp-theme='dark'] .andes-dropdown--loud,
+html[data-mp-theme='dark'] .andes-dropdown--loud .andes-dropdown__trigger,
+html[data-mp-theme='dark'] .andes-dropdown--loud .andes-dropdown__selection {
+  background-color: #4c83e8 !important;
+  color: #ffffff !important;
+  border-color: #4c83e8 !important;
+}
+
+/* Tooltips y popovers */
+html[data-mp-theme='dark'] .andes-popover,
+html[data-mp-theme='dark'] .andes-tooltip,
+html[data-mp-theme='dark'] .ui-pdp-card-tooltip,
+html[data-mp-theme='dark'] .ui-pdp-card-tooltip__container {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 45%) !important;
+}
+
+/* Fichas técnicas (specs destacadas y tabla) */
+html[data-mp-theme='dark'] [class*='ui-vpp-highlighted-specs'],
+html[data-mp-theme='dark'] [class*='ui-vpp-striped-specs'],
+html[data-mp-theme='dark'] .andes-table,
+html[data-mp-theme='dark'] .andes-table__tr,
+html[data-mp-theme='dark'] .andes-table__td,
+html[data-mp-theme='dark'] .andes-table__th {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .andes-table__tr--striped,
+html[data-mp-theme='dark'] .ui-vpp-striped-specs__row:nth-child(even) {
+  background-color: var(--mp-surface) !important;
+}
+
+html[data-mp-theme='dark'] .ui-vpp-highlighted-specs__filled-icon,
+html[data-mp-theme='dark'] .ui-vpp-highlighted-specs__filled-icon path {
+  color: var(--mp-text-muted) !important;
+  fill: var(--mp-text-muted) !important;
+}
+
+/* Acordeones (ficha técnica, descripción) */
+html[data-mp-theme='dark'] .ui-pdp-collapsable,
+html[data-mp-theme='dark'] .ui-pdp-collapsable__container,
+html[data-mp-theme='dark'] .ui-pdp-description,
+html[data-mp-theme='dark'] .andes-expandable,
+html[data-mp-theme='dark'] .andes-expandable__header,
+html[data-mp-theme='dark'] .andes-expandable__container,
+html[data-mp-theme='dark'] .andes-expandable__children {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+/* Buybox: stock, envíos y cantidad */
+html[data-mp-theme='dark'] .ui-pdp-buybox,
+html[data-mp-theme='dark'] .ui-pdp-buybox__part,
+html[data-mp-theme='dark'] .ui-pdp-stock-information,
+html[data-mp-theme='dark'] .ui-pdp-stock-and-full,
+html[data-mp-theme='dark'] .ui-pdp-media__shipping,
+html[data-mp-theme='dark'] .xprod-lib-shipping-section {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] [class*='ui-quantity-selector'] {
+  background-color: var(--mp-input) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-media__flag {
+  background-color: #4c83e8 !important;
+  color: #ffffff !important;
+}
+
+/* Botones de acción */
+html[data-mp-theme='dark'] .andes-button--quiet {
+  background-color: transparent !important;
+  color: var(--mp-link) !important;
+  border-color: transparent !important;
+}
+
+html[data-mp-theme='dark'] .andes-button--quiet:hover {
+  background-color: var(--mp-surface-hover) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-actions,
+html[data-mp-theme='dark'] .ui-pdp-actions__container {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-action-icon--BLUE,
+html[data-mp-theme='dark'] .ui-pdp-action-icon--BLUE svg {
+  color: var(--mp-link) !important;
+  fill: var(--mp-link) !important;
+}
+
+/* Favoritos */
+html[data-mp-theme='dark'] .ui-pdp-bookmark svg,
+html[data-mp-theme='dark'] .ui-pdp-bookmark svg path {
+  color: var(--mp-link) !important;
+  stroke: var(--mp-link) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-bookmark--saved svg,
+html[data-mp-theme='dark'] .ui-pdp-bookmark--saved svg path {
+  fill: var(--mp-link) !important;
+}
+
+/* Vendedor y reputación */
+html[data-mp-theme='dark'] .ui-pdp-seller-summary,
+html[data-mp-theme='dark'] .ui-pdp-seller-summary__content {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-pdp-benefits,
+html[data-mp-theme='dark'] .ui-pdp-benefits__list,
+html[data-mp-theme='dark'] .ui-pdp-benefits__text {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-seller-data-banner,
+html[data-mp-theme='dark'] .ui-seller-data-header,
+html[data-mp-theme='dark'] .ui-seller-data-status,
+html[data-mp-theme='dark'] .ui-seller-data-status__info,
+html[data-mp-theme='dark'] .ui-seller-data-status__thermometer,
+html[data-mp-theme='dark'] .ui-seller-data-status__thermometer-head {
+  background-color: transparent !important;
+  color: var(--mp-text) !important;
+}
+
+/* Otros vendedores y placeholders */
+html[data-mp-theme='dark'] .ui-pdp-other-sellers,
+html[data-mp-theme='dark'] .ui-pdp-other-sellers__list,
+html[data-mp-theme='dark'] .ui-pdp-placeholder {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+/* Tarjeta "Medios de pago" y similares */
+html[data-mp-theme='dark'] .ui-box-component,
+html[data-mp-theme='dark'] .ui-box-component-pdp__visible,
+html[data-mp-theme='dark'] .ui-box-component__container {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 28%) !important;
+}
+
+/* Tarjeta de sugerencias (degradado azul) */
+html[data-mp-theme='dark'] [class*='ui-product-suggestions'] {
+  background-color: var(--mp-surface-elevated) !important;
+  background-image: none !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+/* Recomendaciones del PDP */
+html[data-mp-theme='dark'] .ui-recommendations-carousel-wrapper-ref,
+html[data-mp-theme='dark'] .ui-recommendations-carousel-wrapper-ref__header,
+html[data-mp-theme='dark'] .ui-recommendations-over-white-background {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .poly-component__seller,
+html[data-mp-theme='dark'] .poly-component__shipped-from {
+  color: var(--mp-text-muted) !important;
+}
+
+/* Opiniones */
+html[data-mp-theme='dark'] [class*='ui-review'] {
+  color: var(--mp-text) !important;
+}
+
+html[data-mp-theme='dark'] .ui-review-capability-ratings,
+html[data-mp-theme='dark'] .ui-review-capability-comments,
+html[data-mp-theme='dark'] .ui-review-capability-comment,
+html[data-mp-theme='dark'] [class*='ui-review-ai-summary'],
+html[data-mp-theme='dark'] [class*='ai-summary'] {
+  background-color: var(--mp-surface-elevated) !important;
+  border-color: var(--mp-border) !important;
+}
+
+html[data-mp-theme='dark'] .ui-review-capability-ratings__label,
+html[data-mp-theme='dark'] .ui-review-capability-comments__header {
+  color: var(--mp-text-muted) !important;
+}
+
+html[data-mp-theme='dark'] [class*='rating__background'],
+html[data-mp-theme='dark'] [class*='rating-bar__background'] {
+  background-color: var(--mp-surface-hover) !important;
+}
+
+html[data-mp-theme='dark'] [class*='rating__fill'],
+html[data-mp-theme='dark'] [class*='rating-bar__progress'] {
+  background-color: #4c83e8 !important;
+}
+
+/* SVGs con el azul original embebido (#3483FA) */
+html[data-mp-theme='dark'] [fill='#3483FA'],
+html[data-mp-theme='dark'] [fill='#3483fa'],
+html[data-mp-theme='dark'] [stroke='#3483FA'],
+html[data-mp-theme='dark'] [stroke='#3483fa'],
+html[data-mp-theme='dark'] [style*='fill: rgb(52, 131, 250)'],
+html[data-mp-theme='dark'] [style*='fill:#3483FA'] {
+  fill: var(--mp-link) !important;
+  stroke: var(--mp-link) !important;
+}
+
+/* Preguntas */
+html[data-mp-theme='dark'] [class*='ui-pdp-questions'],
+html[data-mp-theme='dark'] [class*='ui-vpp-questions-ai-form'] {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+}
+
+/* Menús flotantes */
+html[data-mp-theme='dark'] .andes-floating-menu,
+html[data-mp-theme='dark'] .andes-floating-menu__wrapper,
+html[data-mp-theme='dark'] .andes-floating-menu__container,
+html[data-mp-theme='dark'] .options-dropdown__circle,
+html[data-mp-theme='dark'] .options-dropdown__list {
+  background-color: var(--mp-surface-elevated) !important;
+  color: var(--mp-text) !important;
+  border-color: var(--mp-border) !important;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 45%) !important;
+}
+
+/* Videos del producto */
+html[data-mp-theme='dark'] .ui-video-clips,
+html[data-mp-theme='dark'] .ui-video-clips__container,
+html[data-mp-theme='dark'] .ui-video-clips__player,
+html[data-mp-theme='dark'] .ui-video-clips__header,
+html[data-mp-theme='dark'] .ui-video-clips__footer {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
+}
+
+/* Publicidad */
+html[data-mp-theme='dark'] .container-advertising,
+html[data-mp-theme='dark'] .ui-billboard-ad,
+html[data-mp-theme='dark'] .ui-billboard-ad__container {
+  background-color: var(--mp-bg) !important;
+  color: var(--mp-text) !important;
 }
